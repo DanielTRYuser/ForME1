@@ -1,0 +1,270 @@
+/* Large desktops and laptops */
+/* Portrait tablets and medium desktops */
+/* Portrait tablets and small desktops */
+@media (max-width: 991px) {
+  .comments .comments__text {
+    justify-content: center;
+  }
+  .comments .comments__text h2 {
+    font-size: 27px;
+  }
+
+  .tutors h5 {
+    font-size: 18px;
+  }
+  .tutors-items {
+    display: block;
+  }
+  .tutors-subitems {
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+  .tutors-subitems img {
+    display: block;
+    margin: 0 auto;
+    height: 400px;
+  }
+  .tutors-subitems p {
+    font-size: 24px;
+  }
+}
+@media (max-width: 900px) {
+  .submit-subtext {
+    justify-content: center;
+  }
+  .submit-subtext h2 {
+    font-size: 25px;
+    text-align: center;
+  }
+}
+@media (max-width: 820px) {
+  .comments__text h2 {
+    font-size: 22px;
+  }
+}
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  .subscribe__img {
+    width: 25%;
+  }
+
+  .comments__text h2 {
+    font-size: 25px;
+    margin-right: 15px;
+    line-height: 24px;
+    text-align: center;
+  }
+  .comments__container__text {
+    display: none;
+  }
+  .comments__container__img {
+    margin: 0 auto;
+  }
+
+  .better-container {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .better-subcont {
+    width: 100%;
+    height: auto;
+    margin: 30px 0 40px 0;
+  }
+  .better-subcont h3 {
+    font-size: 32px;
+  }
+  .better-subcont p {
+    font-size: 18px;
+  }
+
+  .submit-subtext h2 {
+    margin-right: 30px;
+  }
+
+  .choose-container {
+    display: block;
+    margin: 0 auto;
+  }
+  .choose-subcont {
+    display: block;
+    margin: 0 auto 20px auto;
+    width: 400px;
+    height: 328px;
+  }
+  .choose-subcont h4 {
+    font-size: 24px;
+  }
+  .choose-subcont p {
+    font-size: 18px;
+  }
+  .choose-subcont button {
+    padding: 20px 60px;
+  }
+
+  .outer-choose {
+    margin-top: 40px;
+  }
+
+  .faq {
+    margin-bottom: 48px;
+    width: 100%;
+  }
+  .faq details {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 680px) {
+  .submit-subtext h2 {
+    font-size: 20px;
+  }
+
+  .tutors h3 {
+    padding-top: 40px;
+  }
+  .tutors-subitems {
+    margin-bottom: 30px;
+  }
+  .tutors-subitems img {
+    height: 300px;
+  }
+  .tutors-subitems p {
+    font-size: 20px;
+  }
+}
+@media (max-width: 615px) {
+  .subscribe {
+    height: 80%;
+  }
+  .subscribe__text {
+    width: 100%;
+  }
+  .subscribe__text h1 {
+    font-size: 45px;
+  }
+  .subscribe__text button {
+    margin-bottom: 20px;
+  }
+  .subscribe__img {
+    display: none;
+  }
+
+  .subjects {
+    display: inline-table;
+    margin: 40px 0 50px 0;
+  }
+  .subjects__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .submit h3 {
+    font-size: 25px;
+  }
+  .submit-subtext h2 {
+    font-size: 17px;
+    margin-right: 22px;
+  }
+
+  .tutors h3 {
+    font-size: 25px;
+  }
+  .tutors b {
+    font-size: 25px;
+  }
+}
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+  .menu__text ul {
+    display: none;
+  }
+  .menu__text button {
+    display: block;
+  }
+
+  .subscribe__text h1 {
+    font-size: 40px;
+  }
+  .subscribe__img {
+    display: none;
+  }
+
+  .comments__container {
+    height: 507px;
+  }
+  .comments__container__img {
+    width: 300px;
+  }
+  .comments__container__img img {
+    width: 300px;
+    height: auto;
+  }
+
+  .better {
+    margin-top: 40px;
+  }
+
+  .submit {
+    height: 500px;
+    margin-top: 0;
+  }
+  .submit h3 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .submit-subtext {
+    display: none;
+  }
+  .submit .submit__text__items {
+    display: block;
+    max-width: 347px;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  .submit .submit__text__items div {
+    max-width: 347px;
+    margin-bottom: 50px;
+    margin-right: 0;
+  }
+  .submit .submit__text__items div h4 {
+    font-size: 23px;
+  }
+
+  .outer-submit {
+    height: 500px;
+  }
+
+  .tutors-subitems img {
+    height: 200px;
+  }
+
+  .choose-subcont {
+    width: 270px;
+    height: 328px;
+  }
+
+  .faq {
+    margin-top: 30px;
+  }
+  .faq details {
+    font-size: 20px;
+  }
+  .faq details summary::before {
+    margin-right: 8px;
+  }
+
+  .privacy {
+    font-size: 16px;
+  }
+  .privacy li {
+    margin-right: 6px;
+    float: left;
+  }
+}
+@media (max-width: 340px) {
+  .outer-submit {
+    height: 600px;
+  }
+}/*# sourceMappingURL=adapt.css.map */
